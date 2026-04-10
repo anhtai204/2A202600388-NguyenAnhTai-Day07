@@ -25,6 +25,7 @@ SAMPLE_FILES = [
     "data/customer_support_playbook.txt",
     "data/chunking_experiment_report.md",
     "data/vi_retrieval_notes.md",
+    "data/huong_dan_nau_an.md"
 ]
 
 
