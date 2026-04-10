@@ -385,15 +385,15 @@ Chạy 5 benchmark queries của nhóm trên implementation cá nhân của bạ
 
 **Điều hay nhất tôi học được từ thành viên khác trong nhóm:**
 
-> Sử dụng Regex, viết các file markdown giúp model dễ dàng vector hóa và giữ được ngữ nghĩa tốt hơn.
+> Sử dụng Markdown và Regex giúp cấu trúc hóa dữ liệu phân tầng, đảm bảo mỗi chunk thông tin đều mang ý nghĩa trọn vẹn và luôn gắn liền với tiêu đề món ăn. Việc cấu trúc rõ ràng ngay từ đầu giúp bộ máy tìm kiếm (Retrieval) hoạt động chính xác, tránh tình trạng truy xuất dữ liệu rời rạc.
 
 **Điều hay nhất tôi học được từ nhóm khác (qua demo):**
 
-> sử dụng vector database để lưu trữ, tránh các trường hợp out of scope hay hallicuation bằng cách thêm system prompt
+> Sự kết hợp giữa Vector Database chuyên dụng và System Prompt chặt chẽ giúp tối ưu tốc độ truy xuất đồng thời tạo ra hàng bảo vệ cho hành vi của AI. Cách tiếp cận này giúp mô hình chỉ trả lời dựa trên dữ liệu thực tế, từ đó hạn chế tối đa hiện tượng ảo giác (hallucination).
 
 **Nếu làm lại, tôi sẽ thay đổi gì trong data strategy?**
 
-> Tôi sẽ triển khai chunk overlap đảm bảo ngữ nghĩa không bị đứt gãy giữa các bước.
+> Tôi sẽ triển khai kỹ thuật Chunk Overlap để duy trì mạch ngữ cảnh và ngăn chặn tình trạng thông tin bị cắt ngang giữa các bước thực hiện. Điều này đảm bảo mô hình luôn nắm bắt được tiền đề của hành động tiếp theo, giúp câu trả lời logic và không bị đứt gãy ý nghĩa.
 
 ---
 
